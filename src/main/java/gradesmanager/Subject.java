@@ -12,18 +12,15 @@ import java.util.Scanner;
  */
 @Data
 public class Subject {
-    private int subjectId;
     private String name, emailDestination;
     private ArrayList<Student> listOfGrades = new ArrayList<>();
 
     /**
      * Instantiates a new Subject.
      *
-     * @param subjectId the subject id
      * @param name      the name
      */
-    public Subject(int subjectId, String name){
-        this.subjectId = subjectId;
+    public Subject( String name){
         this.name = name;
     }
 

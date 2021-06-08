@@ -1,0 +1,10 @@
+fabio.guardado2012@gmail.com
+Manuel=10
+Alicia=9
+Ernesto=7
+Rubén=9
+Mario=8.20
+Grecia=9
+Mónica=7
+Miguel=8.20
+Ana=7

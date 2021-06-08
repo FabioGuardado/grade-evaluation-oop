@@ -10,9 +10,9 @@ public class Main {
 
         //Creating an array of three subjects.
         Subject[] subjects = new Subject[3];
-        subjects[0] = new Subject(1, "Math");
-        subjects[1] = new Subject(2, "Science");
-        subjects[2] = new Subject(3, "Programming");
+        subjects[0] = new Subject("Math");
+        subjects[1] = new Subject("Science");
+        subjects[2] = new Subject("Programming");
 
         // Main menu for pick a subject
         do {
