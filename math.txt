@@ -1,0 +1,8 @@
+fabio.guardado2012@gmail.com
+Fabio=5.6
+Ricardo=10
+Rodolfo=5.6
+Amilcar=8
+Alfonso=9
+Alexandra=5.6
+Ramiro=10
