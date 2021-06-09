@@ -20,7 +20,7 @@ public class Subject {
      *
      * @param name      the name
      */
-    public Subject( String name){
+    public Subject(String name){
         this.name = name;
     }
 
@@ -46,7 +46,7 @@ public class Subject {
             System.out.print("\n-> Type the name of the file (without extension): ");
             fileName = loadInput.nextLine();
             try{
-                File gradesFile = new File(fileName + ".txt");
+                File gradesFile = new File("src/main/resources/" + fileName + ".txt");
                 Scanner fileInput = new Scanner(gradesFile);
                 validFileName = true;
                 while(fileInput.hasNextLine()){

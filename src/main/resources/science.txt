@@ -1,0 +1,11 @@
+fabio.guardado2012@gmail.com
+Mauricio=9
+Roberto=6.50
+Alexander=4
+Sofia=9
+Fernando=9
+Carlos=9.50
+Francisco=4
+Rodrigo=9.50
+Manuel=6
+Alicia=8
