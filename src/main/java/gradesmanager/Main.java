@@ -37,7 +37,7 @@ public class Main {
                             case 2:
                             case 3:
                                 //Calling the submenu and giving the subject selected
-                                subMenuSubject(option, subjects[(option-1)]);
+                                subMenuSubject(subjects[(option-1)]);
                                 break;
                             case 4:
                                 exit = true;
@@ -61,7 +61,7 @@ public class Main {
     }
 
     // Submenu with the options to manage anyone of the three subjects
-    public static void subMenuSubject(int subjectId, Subject subject){
+    public static void subMenuSubject(Subject subject){
         boolean subMenuExit = false;
         int subMenuOption;
         Scanner subMenuReader = new Scanner(System.in);

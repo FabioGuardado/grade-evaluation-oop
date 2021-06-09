@@ -85,7 +85,7 @@ public class Subject {
             studentName = addInput.nextLine();
             do{
                 try{
-                    System.out.print("->Type the grade of " + studentName + ": ");
+                    System.out.print("-> Type the grade of " + studentName + ": ");
                     studentGrade = Double.parseDouble(addInput.nextLine());
                     if(studentGrade >= 0 && studentGrade <= 10){
                         validGrade = true;
@@ -123,7 +123,10 @@ public class Subject {
         System.out.print("-> Do you want to see the students list?(y/n): ");
         String showList = inputDecision.nextLine();
         if(showList.equals("y")){
-            System.out.println(listOfGrades);
+            for(Student aStudent : listOfGrades){
+                System.out.println(aStudent.getName() + " -> " + aStudent.getGrade());
+                System.out.println("--------------------");
+            }
         }
     }
 }
